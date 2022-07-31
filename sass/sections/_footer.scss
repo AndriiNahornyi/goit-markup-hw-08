@@ -1,12 +1,14 @@
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
+    margin:0;
     background-color: var(--footer-bg-color);
+min-width: 480px;
 }
 
 .footer__container {
-    display: flex;
-    align-items: baseline;
+    // display: flex;
+    // align-items: baseline;
 }
 
 .footer__address {
@@ -15,7 +17,7 @@
 }
 
 .footer__legal-address {
-    display: inline-block;
+    // display: inline-block;
     color: var(--white-text-color);
     text-decoration: none;
     font-style: normal;
@@ -44,39 +46,42 @@
 }
 
 .social {
-    margin-left: 70px;
-}
+    // margin-left: 70px;
+} 
 
 .social__title,
 .subscription__title {
-    display: inline-block;
+    // display: inline-block;
     margin-top: 0;
     margin-bottom: 20px;
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
-    text-align: left;
+    // text-align: left;
+    text-align: center;
     color: var(--white-text-color);
 }
 
 .social__list {
-    display: flex;
-}
+display: flex;
+align-items: center;
+justify-content: center;
+} 
 
 .social__item {
-    margin-right: 10px;
-}
+margin-right: 10px;
+ } 
 
 .social__item:last-child {
     margin-right: 0;    
 }
 
 .social__link {
-    display: inline-flex;
-    width: 44px;
-    height: 44px;
-    justify-content: center;
-    align-items: center;
+    /* display: inline-flex;
+    // width: 44px;
+    // height: 44px;
+    // justify-content: center;
+    // align-items: center; */
     color: var(--white-text-color);
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
@@ -92,18 +97,18 @@
     fill: currentColor;
 }
 
-.subscription {
+/* .subscription {
     margin-left: 93px;
-}
+} */
 
-.subscription__mail {
+/* .subscription__mail {
     display: flex;
-    gap: 12px;
-}
+   gap: 12px;
+ } */
 
 .subscription__input {
-    padding: 15px;
-    width: 358px;
+    /* padding: 15px;
+    width: 358px; */
     height: 50px;
     font-size: 16px;
     line-height: 1.25;
@@ -125,5 +130,5 @@
 
 .subscription__icon {
     fill: currentColor;
-    margin-left: 10px;
+    // margin-left: 10px;
 }
