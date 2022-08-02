@@ -1,27 +1,27 @@
 .works {
     padding-top: 0;
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1199px) {
     display: none;
-}
+    }
 }
 
 .works__list {
-    display: flex;
-    flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
 }
 
 .works__item {
-    position: relative;
-    width: 370px;
-    margin-right: 30px;
-}
+        position: relative;
+        width: 370px;
+        margin-right: 30px;
+        } 
 
 .works__item:nth-child(3n) {
-    margin-right: 0;
+        margin-right: 0;
 }
 
 .works__image {
-    display: block;
+    display: block;    
 }
 
 .works__title {
