@@ -11,7 +11,10 @@
     background-size: cover;
     background-position: center;
     background-color: #c4c4c4;
-    @media (min-resolution: 2pdx) {
+    @media screen and (mini-device-pixel-ratio:2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2pdx)
+    {
             background-image: linear-gradient(to right,
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
@@ -25,7 +28,9 @@
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
         url(../images/hero-768.jpg);
-        @media (min-resolution: 2pdx) {
+        @media screen and (mini-device-pixel-ratio:2),
+            screen and (min-resolution: 192dpi),
+            screen and (min-resolution: 2pdx) {
               background-image: linear-gradient(to right,
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
@@ -41,7 +46,9 @@
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
         url(../images/hero-1600.jpg);
-        @media (min-resolution: 2pdx) {
+        @media screen and (mini-device-pixel-ratio:2),
+            screen and (min-resolution: 192dpi),
+            screen and (min-resolution: 2pdx) {
               background-image: linear-gradient(to right,
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
