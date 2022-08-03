@@ -45,15 +45,15 @@
                         </svg>+38 096 111 11 11</a>
                 </li>
             </ul>
-            <button class="burger-open" type="button">
-                <svg class="burger__icon" width="40px" height="40px">
+            <button type="button" class="burger-open">
+                <svg class="burger__icon" width="40" height="40">
                     <use href="./images/symbol-defs.svg#icon-menu"></use>
                 </svg>
             </button>
         </div>
-        <div class="mob-menu">
-            <button class="burger-close" type="button">
-                <svg class="burger-close__icon" width="40px" height="40px">
+        <div class="mob-menu is-hidden">
+            <button type="button" class="burger-close">
+                <svg class="burger-close__icon" width="40" height="40">
                     <use href="./images/symbol-defs.svg#icon-Vector"></use>
                 </svg>
             </button>
@@ -165,18 +165,46 @@
                 <h2 class="section-title">Чим ми займаємось</h2>
                 <ul class="works__list list">
                     <li class="works__item">
+                        <picture>
+                             <source
+                            srcset="
+                            ./img/work-1-370.jpg 1x,
+                            ./img/work-1-370-2x.jpg 2x
+                            "
+                            media="(min-width:320px)"
+                            >
+
                         <img class="works__image" src="./images/box1.jpg" alt="програміст, що працює за робочим столом в офісі"
                             width="370">
+                        </picture>
                             <h3 class="works__title">десктопні застосунки</h3>
                     </li>
                     <li class="works__item">
+                        <picture>
+                             <source
+                            srcset="
+                            ./img/work-2-370.jpg 1x,
+                            ./img/work-2-370-2x.jpg 2x
+                            "
+                            media="(min-width:320px)"
+                            >
                         <img class="works__image" src="./images/box2.jpg"
                             alt="дизайнери веб-інтерфейсу розробляють програми для смартфонів" width="370">
+                            </picture>
                             <h3 class="works__title">мобільні застосунки</h3>
                     </li>
                     <li class="works__item">
+                        <picture>
+                        <source
+                            srcset="
+                            ./img/work-3-370.jpg 1x,
+                            ./img/work-3-370-2x.jpg 2x
+                            "
+                            media="(min-width:320px)"
+                            >
                         <img class="works__image" src="./images/box3.jpg"
                             alt="творчий художник веб-дизайну із робочим графічним планшетом" width="370">
+                            </picture>
                             <h3 class="works__title">дизайнерські рішення</h3>
                     </li>
                 </ul>
@@ -189,7 +217,30 @@
                 <h2 class="section-title">Наша команда</h2>
                 <ul class="team__workers list">
                     <li class="team__item">
+                        <picture>
+                            <source
+                            srcset="
+                            ./img/team-one-450.jpg 1x,
+                            ./img/team-one-450-2x.jpg 2x
+                            "
+                            media="(min-width:320px)"
+                            >
+                            <source
+                            srcset="
+                            ./img/team-one-354.jpg 1x,
+                            ./img/team-one-354-2x.jpg 2x
+                            "
+                            media="(min-width:768px)"
+                            >
+                            <source
+                            srcset="
+                            ./img/team-one-270.jpg 1x,
+                            ./img/team-one-270-2x.jpg 2x
+                            "
+                            media="(min-width:1200px)"
+                            >
                         <img class="team__image" src="./images/img1.jpg" alt="фото Ігоря Дем'яненка" width="270">
+                        </picture>
                         <h3 class="team__title">Ігор Дем'яненко</h3>
                         <p lang="en" class="team__position">
                             Product Designer
@@ -226,7 +277,30 @@
                         </ul>
                     </li>
                     <li class="team__item">
+                         <picture>
+                            <source
+                            srcset="
+                            ./img/team-two-450.jpg 1x,
+                            ./img/team-two-450-2x.jpg 2x
+                            "
+                            media="(min-width:320px)"
+                            >
+                            <source
+                            srcset="
+                            ./img/team-two-354.jpg 1x,
+                            ./img/team-two-354-2x.jpg 2x
+                            "
+                            media="(min-width:768px)"
+                            >
+                            <source
+                            srcset="
+                            ./img/team-two-270.jpg 1x,
+                            ./img/team-two-270-2x.jpg 2x
+                            "
+                            media="(min-width:1200px)"
+                            >
                         <img class="team__image" src="./images/img2.jpg" alt="фото Ольги Репіної" width="270">
+                        </picture>
                         <h3 class="team__title">Ольга Репіна</h3>
                         <p lang="en" class="team__position">
                             Frontend Developer
@@ -263,7 +337,30 @@
                         </ul>
                     </li>
                     <li class="team__item">
+                         <picture>
+                            <source
+                            srcset="
+                            ./img/team-three-450.jpg 1x,
+                            ./img/team-three-450-2x.jpg 2x
+                            "
+                            media="(min-width:320px)"
+                            >
+                            <source
+                            srcset="
+                            ./img/team-three-354.jpg 1x,
+                            ./img/team-three-354-2x.jpg 2x
+                            "
+                            media="(min-width:768px)"
+                            >
+                            <source
+                            srcset="
+                            ./img/team-three-270.jpg 1x,
+                            ./img/team-three-270-2x.jpg 2x
+                            "
+                            media="(min-width:1200px)"
+                            >
                         <img class="team__image" src="./images/img3.jpg" alt="фото Миколи Тарасова" width="270">
+                         </picture>
                         <h3 class="team__title">Микола Тарасов</h3>
                         <p lang="en" class="team__position">
                             Marketing
@@ -300,7 +397,30 @@
                         </ul>
                     </li>
                     <li class="team__item">
+                         <picture>
+                            <source
+                            srcset="
+                            ./img/team-four-450.jpg 1x,
+                            ./img/team-four-450-2x.jpg 2x
+                            "
+                            media="(min-width:320px)"
+                            >
+                            <source
+                            srcset="
+                            ./img/team-four-354.jpg 1x,
+                            ./img/team-four-354-2x.jpg 2x
+                            "
+                            media="(min-width:768px)"
+                            >
+                            <source
+                            srcset="
+                            ./img/team-four-270.jpg 1x,
+                            ./img/team-four-270-2x.jpg 2x
+                            "
+                            media="(min-width:1200px)"
+                            >
                         <img class="team__image" src="./images/img4.jpg" alt="фото Михайла Єрмакова" width="270">
+                         </picture>
                         <h3 class="team__title">Михайло Єрмаков</h3>
                         <p lang="en" class="team__position">
                             UI Designer
@@ -508,6 +628,7 @@
     </div> 
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 
 </body>
 </html>
