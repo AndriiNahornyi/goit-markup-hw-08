@@ -1331,6 +1331,7 @@ img {
 
 .subscription {
   text-align: center;
+  width: 100%;
 }
 @media screen and (min-width: 768px) {
   .subscription {
@@ -1368,6 +1369,11 @@ img {
 }
 .subscription__input:hover, .subscription__input:focus {
   border-color: var(--accent-color);
+}
+@media screen and (max-width: 767px) {
+  .subscription__input {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 768px) {
   .subscription__input {
