@@ -134,6 +134,7 @@
 
 .subscription {
     text-align: center;
+    width: 100%;
     @media screen and (min-width: 768px) {
     flex-direction: column;
     
@@ -168,6 +169,10 @@
 
     &:hover, &:focus {
         border-color: var(--accent-color);
+    }
+
+    @media screen and (max-width:767px) {
+        width: 100%;
     }
 
     @media screen and (min-width:768px) {
